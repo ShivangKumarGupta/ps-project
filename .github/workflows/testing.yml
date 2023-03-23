@@ -3,7 +3,7 @@ name: myWorkflow
 on: 
   push:
     branches:
-      - maaster
+      - master
       
 
 jobs:
