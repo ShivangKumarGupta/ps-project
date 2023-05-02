@@ -23,6 +23,7 @@ jobs:
     needs: build1
     steps:
       - name: Get myVar input
+        run: echo ${{ needs.build1.outputs.myVar }}
 
       - name: Checkout code
         uses: actions/checkout@v2
